@@ -1,0 +1,26 @@
+.list-bank-transfer{padding:20px 0;border-bottom:1px solid #ccc;margin-bottom:10px;}
+
+.info-bank{
+	margin-left:170px;
+}
+
+.margin0-bank{margin:0;}
+
+.image-bank {
+	background: url(http://localhost:3005/dist/css/payment/vietcombank.png) no-repeat;
+}
+
+.image-bank-bidv {
+	background: url(http://localhost:3005/dist/css/payment/bidv.png) no-repeat;
+}
+
+.image-bank-achau {
+	background: url(http://localhost:3005/dist/css/payment/acb.png) no-repeat;
+}
+
+.list-bank-transfer .img-bank-div{width:150px;}
+
+.img-bank-div {
+	max-width:100%;
+	border:none;
+}

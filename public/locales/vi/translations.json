@@ -1,0 +1,52 @@
+{
+	"ico": {
+		"category" : "Danh Mục ICO",
+		"active_ico" : "Đang ICO",
+		"upcoimg_ico" : "Sắp ICO",
+		"ended_ico" : "ICO đã kết thúc",
+		"all_active_ico" : "XEM TẤT CẢ {{number}} ĐANG ICO",
+		"all_up_ico" : "XEM TẤT CẢ {{number}} SẮP ICO",
+		"all_end_ico" : "XEM TẤT CẢ {{number}} ICO ĐÃ KẾT THÚC",
+		"all" : "Tất cả",
+		"rate" : "Đánh giá",
+		"not_rate" : "Chưa đánh giá",
+		"top_ico" : "Top ico",
+		"project" : "Dự án",
+		"interest" : "Quan tâm",
+		"th_category" : "Danh mục",
+		"receive" : "Nhận",
+		"hardcap" : "Mục tiêu",
+		"end_date" : "Ngày kết thúc"
+	},
+	"submit_ico": {
+		"title" : "Gửi Ico",
+		"username" 	: "Tên của bạn",
+		"email"		: "Email của bạn",
+		"ico_name"	: "Tên ICO",
+		"website"	: "Trang web ICO, tên URL",
+		"telegram"	: "Nhóm Telegram (URL)",
+		"twitter"	: "Tài khoản Twitter (URL)",
+		"affiliate"	: "Bạn có liên kết với ICO không?",
+		"category"	: "Danh mục ICO",
+		"goal"		: "Mục tiêu gây quỹ (Soft Cap / Hard Cap)",
+		"token_type" : "Loại Token",
+		"start_date"	: "Ngày bắt đầu bán mã token",
+		"start_end"		: "Ngày kết thúc bán mã token",
+		"whitelist"		: "Bạn có Whitelist không?",
+		"text1" 	: "Chúng tôi luôn tìm kiếm các dự án ICO đầy hứa hẹn mới để liệt kê trên trang web của Icogens. Bạn có thể gửi cho chúng tôi thông tin về ICO của bạn. Chúng tôi chỉ tập trung vào các dự án quan trọng nhất cho tất cả người dùng, vì vậy chúng tôi không bao giờ hứa hẹn công bố dự án của bạn. Danh sách trên Icogens hoàn toàn MIỄN PHÍ!",
+		"text2"		: "Nếu bất cứ ai hỏi bạn tiền để niêm yết trên Icogens - hãy cẩn thận, nó là một scam! Chúng tôi chỉ có MỘT miền là: icogens.COM."	
+	
+	},
+	"menu" : {
+		"active_ico" : "ICO ĐANG HOẠT ĐỘNG",
+		"upcoimg_ico" : "ICO SẮP DIỄN RA",
+		"ended_ico" : "ICO ĐÃ KẾT THÚC",
+		"white_list": "Whitelist",
+		"ico_stats" : "Ico Stats",
+		"submit_ico" : "GỬI ICO",
+		"articles" : "TIN TỨC"
+	},
+	"common" : {
+		"back_top" : "LÊN ĐẦU TRANG"
+	}
+}

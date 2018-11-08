@@ -1,0 +1,34 @@
+{
+	"login": {
+		"header" : "LOGIN SKYBIZ",
+		"enter_pass" : "Enter password",
+		"enter_email" : "Enter email",
+		"forgot_pass" : "Forgot password?",
+		"other_login":"or sign in with",
+		"confirm_register" : "Do you want to become an Affiliate?",
+		"quick_register" : "Register now",
+		"login" : "Login"
+	},
+	"forgot" : {
+		"header" : "Forgot password",
+		"header1" : "The system has sent an email to retrieve password to your email <strong>{{email_forgot}}</strong>.",
+		"header2" : "Please check the email and follow the instructions in the mail",
+		"header3" : "Please enter your email to receive mail forgot password",
+		"reset_pass" : "Reset password",
+		"reset_notice" : "You can use the email and password just entered to sign in",
+		"reset_success" : "Reset password successfully!",
+		"enter_new_pass" : "Enter new password",
+		"confirm_new_pass" : "Confirm new password"
+	},
+	"error" : {
+		"require_mail" : "Please enter email address",
+		"require_pass" : "Please enter password",
+		"require_new_pass" : "Please enter new password",
+		"require_confirm_pass" : "Please confirm new password",
+		"confirm_pass_incorrect" : "Password don't match. Please try again",
+		"length_password" : "Password must be at least 5 characters long."
+	},
+	"button" : {
+		"next" : "Next"
+	}
+}

@@ -1,0 +1,8 @@
+function showError(key,text){var classForm='.form-'+ key;var errorText='.err-'+ key;$(classForm).addClass('has-error');$(errorText).show();$(errorText).text(text);}
+function validMobile(mobile){var mobilePattern=/(0)+(9[0-9]|12[0-9]|16[0-9]|99[0-9]|19[0-9]|8[0-9])\d{7}$/;return mobilePattern.test(mobile)}
+function validEmail(email){var filter=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;return(filter.test(email));}
+$(document).ready(function(){$('.input-payment').change(function(){var classForm='.form-'+ this.name;var errorText='.err-'+ this.name;$(classForm).removeClass('has-error');$(errorText).hide();});$('.btn-buy').click(function(event){event.preventDefault();var formErr=$('.form-error');var mask=$('.payment-mask');formErr.hide();var name=$('.name').val(),email=$('.email').val(),mobile=$('.mobile').val(),coupon=$('.coupon').val();if(!name){showError('name','Vui lòng nhập họ tên');return;}
+if(!email){showError('email','Vui lòng nhập email của bạn');return;}
+if(!validEmail(email)){showError('email','Vui lòng nhập đúng định dạng email');return;}
+if(mobile&&!validMobile(mobile)){showError('mobile','Vui lòng nhập đúng định dạng số điện thoại');return;}
+mask.show();$.ajax({url:'/payment/buy'+ window.location.search,type:'POST',dataType:'json',data:{'phonenumber':mobile,'email':email,'name':name,'couponskey':coupon},success:function(data){mask.hide();if(data.signal==1){window.location.href='/payment/method'+ window.location.search;}else{formErr.show();$('.err-payment').text(data.message);}},error:function(err){mask.hide();console.log(err);}});});});

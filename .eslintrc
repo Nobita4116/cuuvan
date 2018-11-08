@@ -1,0 +1,21 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "plugins": ["babel"],
+    "rules": {
+        "strict": 1,
+        "no-unused-vars": 1,
+        "no-console": 0,
+        "no-undef": 2,
+        "no-mixed-spaces-and-tabs": [ 1, "smart-tabs" ],
+        "indent": [ 0, 4 ]
+    },
+    "extends": [ "eslint:recommended" ],
+    "globals": {}
+}

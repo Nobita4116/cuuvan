@@ -1,0 +1,52 @@
+{
+	"ico": {
+		"category" : "Browse ICOs",
+		"active_ico" : "Active ico",
+		"upcoimg_ico" : "Upcoming ico",
+		"ended_ico" : "Ended ico",
+		"all_active_ico" : "VIEW ALL {{number}} ACTIVE ICO",
+		"all_up_ico" : "VIEW ALL {{number}} UPCOMING ICO",
+		"all_end_ico" : "VIEW ALL {{number}} ENDED ICO",
+		"all" : "All",
+		"rate" : "Rate",
+		"not_rate" : "Not rate",
+		"top_ico" : "Top ico",
+		"project" : "Project",
+		"interest" : "Interest",
+		"th_category" : "Category",
+		"receive" : "Receive",
+		"hardcap" : "Hardcap",
+		"end_date" : "End date"
+	},
+	"submit_ico": {
+		"title" : "Submit Ico",
+		"username" 	: "Your name",
+		"email"		: "Your email",
+		"ico_name"	: "ICO name",
+		"website"	: "ICO website, URL name",
+		"telegram"	: "Telegram Group (URL)",
+		"twitter"	: "Twitter Account (URL)",
+		"affiliate"	: "Are you affiliated with the ICO?",
+		"category"	: "ICO Category",
+		"goal"		: "Fundraising Goals (Soft Cap / Hard Cap)",
+		"token_type" : "Token Type",
+		"start_date"	: "Token sale start date",
+		"start_end"		: "Token sale end date",
+		"whitelist"		: "Do you have Whitelist?",
+		"text1" 	: "We always look for new promising ICO projects to list on Icogens website. You can submit us information about your ICO. We only concentrate on the most significant projects for all users, so we never promise the publication of your project. Listing on Icogens is totally FREE!",
+		"text2"		: "If anyone asks you money for listing on Icogens - be careful, it is a scam! We have only ONE domain which is: icogens.COM." 	
+	
+	},
+	"menu" : {
+		"active_ico" : "Active ico",
+		"upcoimg_ico" : "Upcoming ico",
+		"ended_ico" : "Ended ico",
+		"white_list": "Whitelist",
+		"ico_stats" : "Ico Stats",
+		"submit_ico" : "Submit ico",
+		"articles" : "Articles"
+	},
+	"common" : {
+		"back_top" : "BACK TO TOP"
+	}
+}

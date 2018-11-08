@@ -1,0 +1,152 @@
+.defaultWidgetFrame {
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 17px;
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #E6E9ED;
+}
+
+.defaultWidgetFrameHeader {
+	border-bottom: 2px solid #E6E9ED;
+	padding: 1px 5px 6px;
+	margin-bottom: 10px;
+	height: 35px;
+}
+
+.defaultWidgetFrameHeader .title {
+	font-size: 18px;
+  float: left;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.defaultWidgetFrameHeader .remove {
+	float: right;
+	font-size: 11px;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+.add-widget-button {
+	padding: 10px;
+	text-align: center;
+	border: 1px dotted #DCDCDC;
+	margin-bottom: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.add-widget-link {
+	text-decoration: none;
+}
+
+.editable-column {
+	border: 1px dotted #8C8080;
+	padding: 10px;
+}
+
+.droppable-column {
+	background-color: #E7E7E7;
+}
+
+.Select-menu-outer {
+	z-index: 1000;
+}
+
+.swal-text {
+	text-align: center;
+}
+
+.hide-text {
+    display: none;
+}
+.register-mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(216,217,218,0.4);
+    display: none;
+}
+.tableS{
+        display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tableCellS{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ion-small-box{
+	font-size: 60px !important
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.thumb-avatar {
+    overflow: hidden;
+    border-radius: 40%;
+    width: 100%;
+	height: 100%;
+    margin: 20px auto 0 auto;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.thumb-avatar img {
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.upload-avatar-text {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.upload-span {
+	text-decoration: underline;
+    cursor: pointer;
+}
+
+.image-wrapper {
+	width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.image-wrapper div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.package-label {
+	padding: 5px 15px;
+}
